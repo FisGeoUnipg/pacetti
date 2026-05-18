@@ -1,0 +1,16 @@
+convert -resize 10% MMF18-1.JPG MMF18-1p.JPG
+convert -resize 10% MMF18-2.JPG MMF18-2p.JPG
+convert -resize 10% MMF18-3.JPG MMF18-3p.JPG
+convert -resize 10% MMF18-4.JPG MMF18-4p.JPG
+convert -resize 10% MMF18-5.JPG MMF18-5p.JPG
+convert -resize 10% MMF18-6.JPG MMF18-6p.JPG
+convert -resize 10% MMF18-7.JPG MMF18-7p.JPG
+convert -resize 10% MMF18-8.JPG MMF18-8p.JPG
+convert -resize 10% MMF18-9.JPG MMF18-9p.JPG
+convert -resize 10% DMS18-1.JPG DMS18-1p.JPG
+convert -resize 10% DMS18-2.JPG DMS18-2p.JPG
+convert -resize 10% DMS18-3.JPG DMS18-3p.JPG
+convert -resize 10% DMS18-4.JPG DMS18-4p.JPG
+convert -resize 10% DMS18-5.JPG DMS18-5p.JPG
+convert -resize 10% DMS18-6.JPG DMS18-6p.JPG
+

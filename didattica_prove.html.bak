@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="it">
+	<head>
+	 <meta charset="UTF-8" />
+     <title>Pagina personale di Simone Pacetti</title>
+     <meta name="description" content="Pagina personale" />
+     <meta name="keywords" content="Informazioni attivita`" />
+    <meta name="author" content="Simone Pacetti" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="content-language" content="it-IT" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="shortcut icon" href="images/logo2.png"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+        <div class="container">
+
+<div id="testata">
+            	<div class="logo">
+       	      		<a href="index.html"><img src="images/logo2.png" width="140" height="82" alt="logo simo" /></a>
+                </div><!--float left logo-->
+           
+               <div id="menu">
+    
+                    <ul><!-- MENU PRINCIPALE -->
+                    
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="ricerca.html">RICERCA</a></li>
+                    	<li><a href="didattica.html" class="segnaposto">DIDATTICA</a></li>
+                        <li><a href="fisica.html">FISICA</a></li>
+                    	<li><a href="altro.html">ALTRO</a></li>
+                        
+                    </ul>
+    			</div><!--menu-->
+                
+</div><!--testata-->
+
+
+<div class="section">
+           		
+              
+                    <div class="menu-lato">
+                        <ul>
+                        	<li><h1>Didattica</h1></li>
+                            <li><a href="didattica.html">Avvisi</a></li>
+                            <li><a href="didattica_orari.html">Orari</a></li>
+                            <li><a href="didattica_programma.html">Programmi</a></li>
+                            <li><a href="didattica_testi.html">Testi consigliati</a></li>
+                            <li><a href="didattica_prove.html" class="segnaposto">Prove d'esame</a></li>
+                            <li><a href="didattica_tesi.html">Idee per le tesi</a></li>
+                        </ul>
+                    </div><!--menu-lato-->
+                   
+
+<table>
+<td>
+
+		    <h1>Modalit&agrave; dell'esame di<br> Metodi Matematici per la Fisica</h1>
+<font size="2">L'esame consiste in una prova scritta (scritto) ed una
+prova orale (orale), che devono essere sostenute nella stessa
+sessione.
+Si ha accesso all'orale solo dopo aver superato lo scritto
+con un punteggio non inferiore a 15/30.
+Lo scritto consiste nella risoluzione di sei esercizi, dei quali,
+la prima met&agrave; &egrave; relativa all'analisi complessa, la seconda
+alla teoria degli spazi vettoriali. Non &egrave; ammesso l'uso di
+libri di testo, appunti o altri documenti. 
+L'orale consiste in una serie di domande su vari argomenti
+del programma. Il punteggio massimo assegnato all'orale
+&egrave; di 8/30. 
+Il voto finale &egrave; la somma tra il punteggio dello scritto e
+quello dell'orale. La "lode" pu&ograve; essere ottenuta se e solo
+se si verificano le due condizioni seguenti:<br>
+1) la somma del punteggio dello scritto e quello dell'orale
+&egrave; maggiore di 30/30;<br>
+2) lo studente risponde correttamente ad una domanda
+finale "per la lode".</font>
+		    
+                    <h1>Scritti ed esoneri</h1>
+<font size="2">
+I simboli "E1" ed "E2", accanto alla data, idicano, rispettivamente, il primo ed il secondo esonero.
+<table>
+
+<td valign="top">
+  <!--prima colonna-->
+  <font size="5">2011</font><br>
+  &#8226; <a href="files/26luglio11-soluzioni.pdf">26/07 </a><br>
+  &#8226; <a href="files/8settembre11-soluzioni.pdf">08/09</a><br>
+  &#8226; <a href="files/27settembre11-soluzioni.pdf">27/09</a><br>
+  &#8226; <a href="files/6ottobre11-soluzioni.pdf">06/10</a><br>
+  &#8226; <a href="files/1dicembre11-soluzioni.pdf">01/12</a><br>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td valign="top">
+  <!--seconda colonna-->
+  <font size="5">2012</font><br>
+  &#8226; <a href="files/17gennaio12-soluzioni.pdf">17/01</a><br>
+  &#8226; <a href="files/21febbraio12-soluzioni.pdf">21/02</a><br>
+  &#8226; <a href="files/27febbraio12-soluzioni.pdf">27/02</a><br>
+  &#8226; <a href="files/21giugno12-soluzioni.pdf">21/06</a><br>
+  &#8226; <a href="files/25luglio12-soluzioni.pdf">25/07</a><br>
+  &#8226; <a href="files/6settembre12-soluzioni.pdf">06/09</a><br>
+  &#8226; <a href="files/26settembre12-soluzioni2.pdf">26/09</a><br>
+  &#8226; <a href="files/14dicembre12-soluzioni.pdf">14/12</a><br>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td valign="top">
+  <!--terza colonna-->
+  <font size="5">2013</font><br>
+  &#8226; <a href="files/16gennaio13-soluzioni.pdf">16/01</a><br>
+  &#8226; <a href="files/26febbraio13-soluzioni.pdf">26/02</a><br>
+  &#8226; <a href="files/21maggio13-soluzioni.pdf">21/05</a><br>
+  &#8226; <a href="files/19giugno13-soluzioni.pdf">19/06</a><br>
+  &#8226; <a href="files/24luglio13-soluzioni.pdf">24/07</a><br>
+  &#8226; <a href="files/5settembre13-soluzioni.pdf">05/09</a><br>
+  &#8226; <a href="files/20settembre13-soluzioni.pdf">20/09</a><br>
+  &#8226; <a href="files/2dicembre13-soluzioni.pdf">02/12</a><br>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td valign="top">
+  <!--terza colonna-->
+  <font size="5">2014</font><br>
+  &#8226; <a href="files/21gennaio14-soluzioni.pdf">21/01</a><br>
+  &#8226; <a href="files/26febbraio14-soluzioni.pdf">26/02</a><br>
+  &#8226; <a href="files/19giugno14-soluzioni.pdf">19/06</a><br>
+  &#8226; <a href="files/23luglio14-soluzioni.pdf">23/07</a><br>
+  &#8226; <a href="files/5settembre14-soluzioni.pdf">05/09</a><br>
+  &#8226; <a href="files/24settembre14-soluzioni.pdf">24/09</a><br>
+  &#8226; <a href="files/9dicembre14-soluzioni.pdf">09/12</a><br>
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td valign="top">
+  <!--quarta colonna-->
+  <font size="5">2015</font><br>
+  &#8226; <a href="files/20gennaio15-soluzioni.pdf">20/01</a><br>
+  &#8226; <a href="files/24febbraio15-soluzioni.pdf">24/02</a><br>
+  &#8226; <a href="files/25febbraio15-eso1-soluzioni.pdf">25/02 E1</a><br>
+  &#8226; <a href="files/30aprile15-soluzioni.pdf">30/04</a><br>
+  &#8226; <a href="files/4giugno15-eso2-soluzioni.pdf">04/06 E2</a><br>
+  &#8226; <a href="files/19giugno15-soluzioni.pdf">19/06</a><br>
+  &#8226; <a href="files/8settembre15-soluzioni.pdf">08/09</a><br>
+  &#8226; <a href="files/22settembre15-soluzioni.pdf">22/09</a><br>
+  &#8226; <a href="files/18dicembre15-soluzioni.pdf">18/12</a><br>
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td valign="top">
+  <!--quarta colonna-->
+  <font size="5">2016</font><br>
+  &#8226; <a href="files/12gennaio16-soluzioni.pdf">12/01</a><br>
+  &#8226; <a href="files/2febbraio16-soluzioni.pdf">02/02</a><br>
+  &#8226; <a href="files/23febbraio16-soluzioni.pdf">23/02</a><br>
+  &#8226; <a href="files/26febbraio16-eso-soluzioni.pdf">26/02 E1</a><br>
+  &#8226; <a href="files/29aprile16-soluzioni.pdf">29/04</a><br>
+  &#8226; <a href="files/15giugno16-eso2-soluzioni.pdf">15/06 E2</a><br>
+  &#8226; <a href="files/21giugno16-soluzioni.pdf">21/06</a><br>
+  &#8226; <a href="files/5luglio16-soluzioni.pdf">05/07</a><br>
+  &#8226; <a href="files/26luglio16-soluzioni.pdf">26/07</a><br>
+  &#8226; <a href="files/6settembre16-soluzioni.pdf">06/09</a><br>
+</td>
+
+</table>
+	</font>	    
+
+ <h1>Modalit&agrave; dell'esame di<br> Dinamica del Modello Standard</h1>
+<font size="2">L’esame, solo orale, consiste in una serie di domande su
+vari argomenti del programma ed, eventualmente, nella
+risoluzione di brevi problemi.
+</font>
+</td>
+</table>
+              	</div><!--section-->
+             
+		
+            
+<div id="footer">
+      			
+				<ul>
+               	  <li><h3>RICERCA</h3></li>
+                            <li><a href="ricerca.html"class="segnaposto">Attivit&agrave; di ricerca</a></li>
+                            <li><a href="ricerca_esp.html">Esperimenti</a></li>
+                            <li><a href="ricerca_pubb.html">Pubblicazioni</a></li>
+                            <li><a href="ricerca_talks.html">Presentazioni</a></li>
+          </ul>
+                
+                <ul>
+                	<li><h3>DIDATTICA</h3></li>
+			<li><a href="didattica.html">Avvisi</a></li>
+			<li><a href="didattica_orari.html">Orari</a></li>
+                            <li><a href="didattica_programma.html">Programmi</a></li>
+                            <li><a href="didattica_testi.html">Testi consigliati</a></li>
+                            <li><a href="didattica_prove.html">Prove d'esame</a></li>
+                            <li><a href="didattica_tesi.html">Idee per le tesi</a></li>
+			  </ul> 
+                
+                <ul>
+                	<li><h3>FISICA</h3></li>
+                            <li><a href="fisica.html">Siti interessanti</a></li>
+                            <li><a href="fisica_conf.html">Conferenze e seminari</a></li>
+                            <li><a href="fisica_divu.html">Divulgazione</a></li>
+                            <li><a href="fisica_eventi.html">Eventi</a></li>
+
+                </ul> 
+          <ul>
+          	  <li><h3>ALTRO</h3></li>
+                            <li><a href="altro.html">Altri link</a></li>
+                            <li><a href="altro_ancora.html">Altro ancora</a></li>
+          </ul>  
+                
+                
+                 </div><!--footer-->
+</div><!--container-->
+
+	
+</body>
+</html>

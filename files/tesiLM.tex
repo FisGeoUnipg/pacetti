@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BOZZA PER TESI DI LAUREA IN LATEX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,titlepage]{book}
+\usepackage[italian]{babel}
+%\usepackage{graphics}
+\usepackage{url,amsfonts,epsfig}
+\usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
+%\usepackage[latin1]{inputenc} % comando per le lettere accentate se usate pc  
+
+
+\title{\textsc{Questo  il titolo della mia tesi}}
+\author{Pinco Pallino}
+
+\begin{document}
+\pagenumbering{roman}
+
+%%%% Opzione per interlinea 2
+%%%\baselineskip 18pt
+
+\maketitle
+
+\tableofcontents
+%%\listoffigures
+%%\listoftables
+
+\chapter{Introduzione} \label{introduzione}
+\pagenumbering{arabic}
+
+Questo \`e un file minimale d'esempio per la
+stesura di tesi in \LaTeX.
+Ricordatevi di dare il comando bibtex per generare la
+bibliografia (gli items bibliografici vanno messi
+nel file *.bib).\footnote{Ricordatevi di usare
+ meno footnotes (note) possibili.}
+Come esempio, caratteri matematici si possono inserire
+facilmente nel testo: $y_{it} = \alpha+\vec{x}_{it}^{T}\beta_{it} +\epsilon_{it} $ ma
+anche centrati:
+$$ y_{it} = \alpha+\vec{x}_{it}^{T}\beta_{it} +\epsilon_{it}
+$$ con $$ \epsilon_{it}\sim N(0,\sigma^2)
+$$
+
+
+
+Possiamo facilmente citare altri lavori
+usando le loro labels~\cite{dominici03,Deb97}.\\
+Possiamo creare tabelle:
+\begin{center}
+\begin{tabular}{|c|p{8cm}|}
+\hline
+Variabile & Descrizione \\
+\hline \hline
+\textit{Income} - $Y_i$ & reddito individuale mensile in dollari per soggetto i-esimo\\
+\hline
+\textit{Education} - $X_i$ & livello d'istruzione del soggetto i-esimo\\
+\hline\hline
+\end{tabular}
+\end{center}
+Le tabelle potete metterle in appositi ambienti
+che il compilatore deciderˆ dove inserire,
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+{\bf Lag lenght} ($p$) &
+{\bf Personal income} ($Y$) & {\bf Change in personal income} ($\Delta Y$)\\\hline
+{\bf 1}  & 0.999 & -0.010 \\
+{\bf 2} & 0.999 & 0.012\\
+{\bf 3} & 0.999 & 0.134\\
+{\bf 4} & 0.998 & 0.008\\
+{\bf 5} & 0.998 & -0.15 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Funzioni di autocorrelazione
+\label{tab:autocorrelation}}
+\end{table}
+come ad esempio in Tabella~\ref{tab:autocorrelation}.
+
+Si possono inoltre importare disegni in vari formati,
+tra cui l'eps (encapsulated postscript) garantisce un ottimo
+risultato. Ad esempio, con il comando
+\begin{verbatim}
+\psfig{figure=palline.eps,width=0.8\textwidth}
+\end{verbatim}
+si include la figura dal nome {\tt palline.eps}
+e si fissa la sua dimensione orizzontale all'80\% della larghezza del foglio. La dimensione verticale
+sarˆ proporzionale a seconda del disegno. Si pu˜ forzare anche quella
+aggiungendo dentro la parentesi grafa l'opportuno comando, ad esempio: {\tt, height=3cm}.
+%In Figura~\ref{includieps} si pu˜ vedere l'effetto dell'istruzione suddetta:
+
+%\begin{figure}[ht]
+%\begin{center}
+%\psfig{figure=palline.eps,width=0.8\textwidth}
+%\end{center}
+%\caption{Inclusione di figura esterna\label{includieps}}
+%\end{figure}
+
+\medskip
+
+
+La conclusione dell'Introduzione
+finirˆ pi o meno in questo modo:
+
+
+\medskip
+
+La struttura della tesi
+\`{e} la seguente.
+Nel Capitolo~\ref{cap:econtheory},
+bla bla ...............
+
+Infine, nel Capitolo~\ref{cap:conclusioni},
+.......
+
+In Appendice sono riportate le principali procedure
+del codice sviluppato.
+
+
+
+\chapter{La teoria economica su ....} \label{cap:econtheory}
+\begin{flushright}
+\textit{``In economia, gran parte della saggezza\\ consiste nel sapere ci˜ che non sai''.\\
+John Kenneth Galbraith}
+\end{flushright}
+\medskip
+\section{Il modello di...}\label{sec:mod1}
+Bla, bla .... come vedremo poi nella sezione~\ref{sec:crit} ... bla bla.
+
+
+\section{Critiche al modello di ....}\label{sec:crit}
+
+Riprendiamo quanto visto nella sezione~\ref{sec:mod1}, bla bla...
+
+
+
+\chapter{Conclusioni}
+\label{cap:conclusioni}
+Nella tesi abbiamo dunque mostrato che .......
+
+
+
+Ultima nota. Se la tesi vi sembrasse corta, potreste
+aumentare l'interlinea col comando {\tt baselineskip}.
+Guardate qui l'effetto e poi guardate il sorgente per vedere
+come si usa.
+
+\baselineskip 25pt
+
+Sulla base di queste premesse, Wagstaff, definisce una funzione di utilitˆ chiamata $U$, definita in modo tale che sia concava.....essa pu˜ essere denotata da $H(M)$, tale per cui $\partial H(M)/ \partial M>0$ con $\partial^{2} H(M)/\partial M^{2}<0$. 
+
+\baselineskip 5pt
+
+Di tutte le variabili che possono essere incluse nel nostro fattore $M$, quelle che hanno maggiore influenza nell'andamento di $M$ e quindi di $H$, sono la conoscenza applicata ...quindi la funzione $H(M)$.
+
+\baselineskip 16pt
+
+
+%%% EVENTUALE
+\appendix
+\chapter{Codice}
+
+\begin{verbatim}
+num(0).
+num(s(X)) :- num(X).
+\end{verbatim}
+
+%%% OBBLIGATORIA:
+
+\bibliographystyle{plain}
+\bibliography{biblio} %%% nome file(s)
+
+\end{document}

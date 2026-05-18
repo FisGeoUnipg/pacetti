@@ -1,0 +1,8 @@
+sips -Z 2000 DMS21-01.jpg -o DMS21-1.JPG
+sips -Z 2000 DMS21-02.jpg -o DMS21-2.JPG
+sips -Z 2000 DMS21-03.jpg -o DMS21-3.JPG
+sips -Z 2000 DMS21-04.jpg -o DMS21-4.JPG
+sips -Z 2000 DMS21-05.jpg -o DMS21-5.JPG
+
+sips -Z 2000 MMF21-01.jpg -o MMF21-1.JPG
+

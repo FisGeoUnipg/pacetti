@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="it">
+	<head>
+	 <meta charset="UTF-8" />
+     <title>Pagina personale di Simone Pacetti</title>
+     <meta name="description" content="Pagina personale" />
+     <meta name="keywords" content="Informazioni attivita`" />
+    <meta name="author" content="Simone Pacetti" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="content-language" content="it-IT" />
+    <meta name="robots" content="index, follow" />
+
+
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
+</head>
+<body>
+
+
+	
+  <b>Esempio</b><br>
+    Si insericano i valori richiesti.<br>
+
+      <form id="myForm">
+      <table>
+	<tr><td> Presenza alle video-lezioni (1-5):                           </td> <td> <input type="number" name="v1" min="1" max="5"></td></tr>
+	<tr><td> Interazione con l'insegnante durante le video-lezioni (1-5): </td> <td> <input type="number" name="v2" min="1" max="5"></td></tr>
+	<tr><td> Puntualit&agrave; consegna compiti (1-5):                    </td> <td> <input type="number" name="v3" min="1" max="5"></td></tr>
+	<tr><td> Qualit&agrave; e completezza compiti (1-5):                  </td> <td> <input type="number" name="v4" min="1" max="5"></td></tr>
+	<tr><td> Media voti febbraio-marzo:                                   </td> <td> <input type="test"   name="v5"></td></tr>
+	<tr><td> Voto primo quadrimestre (4-10):                              </td> <td> <input type="number" name="v6" min="4" max="10"></td></tr>
+	<tr><td> <br> </td> <td> </td></tr>
+	<tr><td> Voto finale:                                                 </td> <td> <input type="text" name="voto">  </td></tr>
+	</table>
+	</form>
+<br>
+		  
+	<input type="button" value="Ottieni il voto" onclick="calcVoto()">
+	  &nbsp;&nbsp;
+	    <input type="button" value="Cancella voto" onclick="vuoto()">
+	      &nbsp;&nbsp;
+    <input type="button"  value="Cancella tutto" onclick="myFunction()">
+
+<script>
+function myFunction() {
+  document.getElementById("myForm").reset();
+}
+</script>
+  
+<script>
+  function vuoto() {
+      let voto = "";
+      document.getElementsByName("voto")[0].value = voto;
+}
+</script>
+  
+<script>
+    function calcVoto() {
+        let v1 = document.getElementsByName("v1")[0].value;
+        let v2 = document.getElementsByName("v2")[0].value;
+        let v3 = document.getElementsByName("v3")[0].value;
+        let v4 = document.getElementsByName("v4")[0].value;
+        let v5 = document.getElementsByName("v5")[0].value;
+        let v6 = document.getElementsByName("v6")[0].value;
+	
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)<5 && Number(v5)==0)
+	{
+	    let voto = 4*.75 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)<5 && Number(v5)>0)
+	{
+	    let voto = 2 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=6 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=8 && Number(v5)==0)
+	{
+	    let voto = 5*.75 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=6 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=8 && Number(v5)>0)
+	{
+	    let voto = 2.5 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=9 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=11 && Number(v5)==0)
+	{
+	    let voto = 6*.75 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=9 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=11 && Number(v5)>0)
+	{
+	    let voto = 3 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=12 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=14 && Number(v5)==0)
+	{
+	    let voto = 7*.75 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=12 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=14 && Number(v5)>0)
+	{
+	    let voto = 3.5 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=15 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=17 && Number(v5)==0)
+	{
+	    let voto = 8*.75 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=15 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=17 && Number(v5)>0)
+	{
+	    let voto = 4 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=18 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=19 && Number(v5)==0)
+	{
+	    let voto = 9*.75 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)>=18 && Number(v1)+Number(v2)+Number(v3)+Number(v4)<=19 && Number(v5)>0)
+	{
+	    let voto = 4.5 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)==20 && Number(v5)==0)
+	{
+	    let voto = 10*.75 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+	if (Number(v1)+Number(v2)+Number(v3)+Number(v4)==20 && Number(v5)>0)
+	{
+	    let voto = 5 + .25* (Number(v5) + Number(v6));
+            document.getElementsByName("voto")[0].value = voto;}
+
+	if (Number(v1)<1 || Number(v1)>5 || Number(v2)<1 || Number(v2)>5 || Number(v3)<1 || Number(v3)>5 || Number(v4)<1 || Number(v4)>5 || Number(v5)<4 || Number(v5)>10 || Number(v6)<4 || Number(v6)>10)
+	{
+	    let voto = "Volore errato";
+            document.getElementsByName("voto")[0].value = voto;}
+    }
+</script>
+
+
+
+	
+</body>
+</html>

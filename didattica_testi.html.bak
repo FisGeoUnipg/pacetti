@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="it">
+	<head>
+	 <meta charset="UTF-8" />
+     <title>Pagina personale di Simone Pacetti</title>
+     <meta name="description" content="Pagina personale" />
+     <meta name="keywords" content="Informazioni attivita`" />
+    <meta name="author" content="Simone Pacetti" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="content-language" content="it-IT" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="shortcut icon" href="images/logo2.png"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+        <div class="container">
+
+<div id="testata">
+            	<div class="logo">
+       	      		<a href="index.html"><img src="images/logo2.png" width="140" height="82" alt="logo simo" /></a>
+                </div><!--float left logo-->
+           
+               <div id="menu">
+    
+                    <ul><!-- MENU PRINCIPALE -->
+                    
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="ricerca.html">RICERCA</a></li>
+                    	<li><a href="didattica.html" class="segnaposto">DIDATTICA</a></li>
+                        <li><a href="fisica.html">FISICA</a></li>
+                    	<li><a href="altro.html">ALTRO</a></li>
+                        
+                    </ul>
+    			</div><!--menu-->
+                
+</div><!--testata-->
+
+
+<div class="section">
+           		
+              
+                    <div class="menu-lato">
+                        <ul>
+                        	<li><h1>Didattica</h1></li>
+                            <li><a href="didattica.html">Avvisi</a></li>
+                            <li><a href="didattica_orari.html">Orari</a></li>
+                            <li><a href="didattica_programma.html">Programmi</a></li>
+                            <li><a href="didattica_testi.html" class="segnaposto">Testi consigliati</a></li>
+                            <li><a href="didattica_prove.html">Prove d'esame</a></li>
+                            <li><a href="didattica_tesi.html">Idee per le tesi</a></li>
+                        </ul>
+                    </div><!--menu-lato-->
+<table>
+<td>
+                   
+                    <h1>Testi consigliati per il cosrso di<br>Metodi Matematici per la Fisica</h1>
+                     
+<table>
+
+<td valign="top">
+<font size="4"><u> Analisi complessa </u></font><br>
+<font size="2">
+  &#8226; C. Rossetti,<br>
+  &nbsp;&nbsp; <i>Metodi matematici della fisica</i><br>
+    &nbsp;&nbsp; Levrotto &amp Bella editore, Torino (2000) <br>
+  &#8226; S. Lang,<br>
+  &nbsp;&nbsp; <i>Complex Analysis</i><br>
+  &nbsp;&nbsp; Sringer Verlag, Milano (2011)<br>
+  &#8226; L. V. Ahlfors,<br>
+  &nbsp;&nbsp; <i>Complex Analysis</i><br>
+    &nbsp;&nbsp; McGraw Hill, New York (1979) <br>
+  &#8226; C. Presilla,<br>
+  &nbsp;&nbsp; <i>Elementi di analisi complessa</i><br>
+    &nbsp;&nbsp; Unitext (Springer-Verlag), Milano (2011) <br>
+  &#8226; G. Pradisi,<br>
+  &nbsp;&nbsp; <i>Lezioni di metodi matematici della fisica</i><br>
+    &nbsp;&nbsp; Edizioni della Normale, Pisa (2012) 
+</font>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td valign="top">
+<font size="4"><u> Spazi vettoriali </u></font><br>
+<font size="2">
+    &#8226; C. Rossetti,<br>
+  &nbsp;&nbsp; <i>Metodi matematici della fisica</i><br>
+    &nbsp;&nbsp; Levrotto &amp Bella editore, Torino (2000) <br>
+	
+  &#8226 L. Debnath, P. Mikusinski,<br>
+  &nbsp;&nbsp; <i>Introduction to Hilbert Spaces with Applications</i><br>
+&nbsp;&nbsp; Academic Press, Boston (2005) <br>
+ &#8226; G. Pradisi,<br>
+  &nbsp;&nbsp; <i>Lezioni di metodi matematici della fisica</i><br>
+    &nbsp;&nbsp; Edizioni della Normale, Pisa (2012) 
+  </font>
+</td>
+
+</table>
+
+<h1>Testo consigliato per il cosrso di<br>Dinamica del Modello Standard</h1>
+<font size="2">
+John F. Donoghue, Eugene Golowich and Barry R. Holstein,<br>
+ <i>Dynamics of the Standard Model</i><br>
+ (second edition) Cambridge
+Monographs on Particle Physics, Nuclear Physics and
+Cosmology
+</font>
+</td>
+
+</table>
+
+		    
+              	</div><!--servizio-->
+             
+		
+            
+<div id="footer">
+      			
+				<ul>
+               	  <li><h3>RICERCA</h3></li>
+                            <li><a href="ricerca.html"class="segnaposto">Attivit&agrave; di ricerca</a></li>
+                            <li><a href="ricerca_esp.html">Esperimenti</a></li>
+                            <li><a href="ricerca_pubb.html">Pubblicazioni</a></li>
+                            <li><a href="ricerca_talks.html">Presentazioni</a></li>
+          </ul>
+                
+                <ul>
+                	<li><h3>DIDATTICA</h3></li>
+			<li><a href="didattica.html">Avvisi</a></li>
+                            <li><a href="didattica_orari.html">Orari</a></li>
+                            <li><a href="didattica_programma.html" class="segnaposto">Programmi</a></li>
+                            <li><a href="didattica_testi.html">Testi consigliati</a></li>
+                            <li><a href="didattica_prove.html">Prove d'esame</a></li>
+                            <li><a href="didattica_tesi.html">Idee per le tesi</a></li>
+                </ul> 
+                
+                <ul>
+                	<li><h3>FISICA</h3></li>
+                            <li><a href="fisica.html">Siti interessanti</a></li>
+                            <li><a href="fisica_conf.html">Conferenze e seminari</a></li>
+                            <li><a href="fisica_divu.html">Divulgazione</a></li>
+                            <li><a href="fisica_eventi.html">Eventi</a></li>
+
+                </ul> 
+          <ul>
+          	  <li><h3>ALTRO</h3></li>
+                            <li><a href="altro.html">Altri link</a></li>
+                            <li><a href="altro_ancora.html">Altro ancora</a></li>
+          </ul>  
+                
+                
+                
+ </div><!--footer-->
+</div><!--container-->
+
+	
+</body>
+</html>

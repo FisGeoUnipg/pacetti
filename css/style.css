@@ -1,0 +1,799 @@
+/* Genereted by Facile Web srl */
+
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: .25;
+  }
+}
+
+
+body{
+    	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+/*	background-repeat:repeat; */
+	background-image: url(../images/texture_prova3.jpg);
+	color: #333;  
+}
+
+.container{
+	width: 1020px;
+	height: auto;
+	margin:0 auto;
+	display:block;
+	background-color:#FFF;
+	color: #333;
+}
+
+
+
+.progress {
+	text-align:center;
+	color:#666;
+	}
+	.progress img {
+		margin:0 auto;
+	}
+
+
+		
+#menu {
+	float: right;
+	clear:right;
+	overflow:hidden;
+	height:48px;
+	width: 800px;
+	display:block;
+	margin-top:27px;
+	margin-bottom:27px;
+	z-index:2;
+}
+	
+#menu ul {
+	margin:14px auto;
+	padding: 0;
+	list-style:none;
+	display:block;
+	width: auto;
+	height:20px;
+	float:right;
+}
+		
+#menu ul li {
+	width: auto;
+	height:30px;
+	float:left;
+	margin-right:5px;
+	padding-top: 0;
+	padding-bottom:0;
+	padding-right:10px;
+	padding-left:0;
+	float:left;
+	text-align: center;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+#menu ul li a {
+	display: block;
+	padding: 0;
+	text-decoration: none;
+}
+		
+#menu ul li a:hover {
+	color: #444;
+	background-color:#FFF;
+	border-bottom:3px solid #444;
+		
+}
+	
+
+a {
+	color:#999;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover {
+	color: #444; /* blu aziendale */
+}
+a:img {
+	border:none;
+}
+a name {
+	color:#666;
+}
+a name:hover {
+	color:#666;
+
+	
+}
+img, img a {
+	display:block;
+	border:none;
+}
+
+hr {
+	color:#CCC;
+	width:1000px;
+	margin-left:10px;
+	margin-right:10px;
+	display:block;
+}
+
+
+
+/* MENU LATERLE */
+.menu-lato {
+	width:250px; 
+	height: auto; 
+	float:left; 
+	display:block; 
+	padding:0;
+	border-right:#CCC solid 1px;
+	margin-right:20px;
+}
+.menu-lato ul {
+	padding:0;
+	font-size:16px;
+	line-height:30px;
+	font-style: italic;
+	
+}
+.menu-lato ul li {
+	padding-bottom:10px;
+	margin-top:10px;
+	font-style:normal;
+	font-weight:bold;
+	border-bottom:#CCC dotted 1px;
+	line-height:25px;
+}
+.sottotitolo {
+	font-size:13px;
+	font-weight:bold;
+	margin:0;
+	line-height:12px;
+}
+.segnaposto {
+	color:#444;
+	cursor:pointer;
+}
+ul {
+	list-style:none;
+}
+/*h1 {
+	font-size:25px;
+	color: #039;  blu aziendale 
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin-left:30px;
+	margin-bottom:0;
+}*/
+.title {
+	font-size:25px;
+	color: #444; /* blu aziendale */
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin-left:30px;
+	margin-bottom:0;
+	margin-top:30px;
+}
+h1 { /* titoli paragrafi */
+	font-size:30px;
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	text-align: left;
+	margin-top:10px;
+	margin-bottom:0;
+	color:#444;
+
+}
+/*h2 {
+	font-size:20px;
+	font-weight:bolder;
+	font-weight: normal;
+	margin-left:30px;
+	margin-top:0;
+}*/
+h3 { /* titoli paragrafi */
+	font-size:30px;
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	text-align: left;
+	margin-top:10px;
+	margin-bottom:0;
+	color:#039;
+
+}
+h2 { /* sotto-titoli paragrafi */
+	font-size:18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bolder;
+	font-style:italic;
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10px;
+
+
+}
+h5 { /* titoli infografica */
+	font-size:28px;
+	color:#039;
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	margin-top:30px;
+	line-height:26px;
+	margin-bottom:0;
+
+}
+span {
+	font-family:Georgia, 'Times New Roman', Times, serif; 
+	font-size:18px; 
+	font-style:italic; 
+	font-weight:bold; 
+	color:#039;
+}
+.margin-left {
+	float:left;
+	margin:30px;
+	clear:left;
+	display:block;
+}
+.margine {
+	margin-left:30px;
+}
+.float-left {
+	float:left;
+}
+.text-blue {
+	color:#039;
+}
+.text-orange {
+	color:#F90;
+}
+.text-center {
+	font-size:18px;
+	color:#039;
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	line-height:26px;
+	margin:0;
+	display:block;
+}
+.text-center:hover {
+	color:#FFF;
+	background-color:#039;
+
+}
+.cont-tornasu {
+	background-color: transparent;
+	background-image:url(../images/tornasu.png);
+	color:#FFF;
+	width:40px;
+	height:40px;
+	display:block;
+	float:right;
+}
+
+/*   TESTATA   */
+
+#testata {
+	display: block;
+	width:1020px;
+	height:102px;
+	background-color:#FFF;
+	border-bottom:solid 6px #444;
+
+}
+	/*	#centro {
+			width:1020px;
+			height:auto;
+			margin:0 auto;
+		}*/
+.logo { /* contiene logo */
+	float:left;
+	clear:left;
+	overflow:hidden;
+	height:82px;
+	width:140;
+	display:block;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right: auto;
+}
+#benvenuto {
+	width:950px;
+	margin-left:30px; 
+	margin-right: auto;
+	font-size:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	border-bottom:#CCC solid 2px;
+}
+
+/*   HEADER   */
+
+#header{
+	width:1020px;
+	height:300px;
+	display:block;
+	background-color:#FFF;
+	border-bottom:solid 6px #039;
+	border-left:none;
+	border-right:none;
+	z-index:0;
+		}
+		#header ul {
+			width:250px;
+			height: auto;
+			margin-top: auto;
+			margin-bottom:90px;
+			margin-left:500px;
+			margin-right:240px;
+			clear:both;
+			display:block;
+			overflow:hidden;
+				}
+				#header ul li {
+					font-size:23px;
+					font-weight:bolder;
+					color:#999;
+				}
+				.nobordo {
+					border:none;
+				}
+/*  CORPO  */
+
+.rettangolo {
+	background-color: transparent;
+	background-image:url(../images/rettangoloBG.png);
+	background-position: top;
+	background-repeat:no-repeat;
+	width:300px;
+	height:500px;
+	float:left;
+	display:block;
+	overflow:hidden;
+	margin:0;
+}
+.rettangolo-centrale {
+	background-color: transparent;
+	background-image:url(../images/rettangolo-centraleBG.png);
+	background-position: top;
+	background-repeat:no-repeat;
+	width:300px;
+	height:500px;
+	float:left;
+	display:block;
+	overflow:hidden;
+	margin-left:10px;
+	margin-right:10px;
+}
+.rettangolo p, .rettangolo-centrale p {
+	margin:20px;
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.cont-icona {
+	width:278px;
+	height:105px;
+	background-color:transparent;
+	float:left;
+	display:block;
+	margin-bottom:0;
+	margin-left:11px;
+	margin-right:11px;
+}
+
+
+#infografica {
+	background-image:url(../images/containerBG.png);
+	background-repeat:repeat;
+	background-color:transparent;
+	padding-left:50px;
+	width:970;
+	margin-left:auto;
+	margin-right:auto;
+	height: auto;
+	margin-bottom:30px;
+	margin-top:20px;
+	border-top:5px solid #039;
+}
+/*  PAGINA PORTFOLIO  */
+
+.section {
+	height: auto;
+	overflow:hidden;
+	clear:both;
+	width:980px;
+	display:block;
+	padding-left:30px;
+	padding-right:10px;
+	padding-bottom:20px;
+	margin-top:20px;
+}
+
+/* PAGINA PORTFOLIO */
+.colonna {
+	width:320px;
+	height:550px;
+	float:left;
+	display:block;
+	border-bottom:20px solid #039;
+}
+.colonna-centrale {
+	width:300px;
+	height:550px;
+	float:left;
+	display:block;
+	margin: auto 10px;
+	border-bottom:20px solid #039;
+	
+}
+.foto-staff {
+	width:320px;
+	height:200px;
+	background-color:#CCC;
+	display:block;
+	margin:10px auto;
+}
+.foto-staff-centrale {
+	width:300px;
+	height:200px;
+	background-color:#CCC;
+	display:block;
+	margin:10px auto;
+}
+.logo-staff {
+	width:320px;
+	height:60px;
+	float:left;
+	display:block;
+	padding:0;
+}
+.logo-staff-centrale {
+	width:300px;
+	height:60px;
+	background-position:center;
+	float:left;
+	display:block;
+	padding:0;
+}
+.nome {
+	color:#039;
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	margin-top:20px;
+}
+.qualifica {
+	color:#666;
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-style: normal;
+	text-align:center;
+	color:#999;
+
+}
+
+.blue-box {
+	width:320px;
+	height:20px;
+	background-color:#039;
+	float:left;
+	display:block;
+	padding:0;
+	color:#FFF;
+	text-align:center;
+	margin-top:10px;
+}
+
+.intro {
+	width:900px;
+	margin-left:60px;
+	margin-right:60px;
+	margin-top:30px;
+	margin-bottom:30px;
+	display:block;
+	height:auto;
+	padding:0;
+		}
+		.intro p{
+			width: 450px;
+			height: auto;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			float: left;
+			text-align:right;
+			overflow:hidden;
+			clear: left;!important
+			display:block;
+					}
+			#intestazione {
+				background-color:black;
+					}
+					.intro h2 {
+						font-family:Georgia, 'Times New Roman', Times, serif; 
+						font-size:18px;
+						margin:10px 0;
+						width:450px;
+						height:auto;
+						float: left;
+						display:block;
+						text-align: right;
+						font-style:italic; 
+						font-weight:bold; 
+						color:#039;
+					}
+			.intro img{
+				float: left;
+				display:block;
+				margin-left:20px;
+			}
+.separa {
+	height:50px;
+	width:100%;
+	display:block;
+	float:left;
+}
+
+
+.intro2 {
+	width:900px;
+	height: auto;
+	margin-left:60px;
+	margin-right:60px;
+	margin-top:30px;
+}
+.intro2 p{
+	width: 450px;
+	height: auto;
+	margin-top:0;
+	margin-left:0;
+	margin-bottom:10px;
+	float: right;
+	text-align: left;
+	display:block;
+}
+.intro2 img{
+	display:block;
+	
+
+}
+
+.articolo {
+	width:300px;
+	height: auto;
+	float:left;
+	display:block;
+}
+.centrale {
+	width:300px;
+	height: auto;
+	float:left;
+	display:block;
+	margin-left:30px;
+	margin-right:30px;
+}
+.articolo ul, .centrale ul { /* report campagne */
+	margin:0;
+	padding-top:10px;
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:0;
+	display:block;
+	font-size:12px;
+
+}
+.articolo ul li, .centrale ul li {
+	margin-top:5px;
+}
+.articolo li i, .centrale li i {
+	color:#666;
+	font-weight:normal;
+}
+.articolo img, .centrale img {
+	border-top:2px solid #039;
+	border-bottom:2px solid #039;
+}
+
+
+/*   PAGINA SERVICES  */
+
+.servizio { /* contiene il paragrafo che parla del servizio */
+	width:600px;
+	float:left;
+	display:block;
+	height:auto;
+}
+.servizio p {
+	font-size:16px;
+
+}
+.servizio ul {
+		font-size:16px;
+}
+.servizio ul li{
+	margin:10px auto;
+}
+.img-servizio {
+	float:left;
+	display:block;
+	width:auto;
+	margin-left:30px;
+	margin-right:auto;
+	height:auto;
+}
+.categoria {
+	width:185px;
+	height:200px;
+	background-color:#FFF;
+	float:left;
+	margin:0 3px;
+}
+.about {
+	width:300px;
+}
+.big-blue-box {
+	width:960px;
+	height:5px;
+	background-color:#039;
+	float:left;
+	display:block;
+	padding:0;
+	margin-left:30px;
+	margin-right:30px;
+}
+
+
+/*   PAGINA CONTATTI  */
+
+#colonna-dx {
+	width:338px;
+	height:550px;
+	float:left;
+	border-right:#CCC solid 2px;
+}
+#colonna-sx {
+	width:680px;
+	height: auto;
+	float:left;
+}
+#cont-frm {
+	height: auto;
+	width: auto;
+	margin:0 122px;
+	display:block;
+	float:left;
+}
+#frmContatto {
+	height: auto;
+	width: auto;
+	color:#666;
+	padding:20px;
+	border:2px solid #CCC;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+}
+.campo {
+	width:300px;
+	border:1px solid #CCC; 
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#mappa {
+	width:100px;
+	height:100px;
+	float:left;
+	margin:20px;
+	padding:0;
+}
+ 
+
+
+
+
+
+
+
+/*   FOOTER   */
+
+#footer {
+	height: 110px;
+	width:1010px;
+	display:block;
+	background-color:#444;
+	color:#FFF;
+	padding-top:10px;
+	padding-bottom:30px;
+	padding-left:10px;
+	margin-top:20px;
+	margin-bottom:0;
+	clear:both;!important
+	-moz-box-shadow:0px -5px 10px #CCC;
+    -webkit-box-shadow:0px -5px 10px #CCC;
+    box-shadow:0px -5px 10px #888;
+
+}
+#footer img {
+	border:none;
+}
+#footer ul {
+	font-size:14px;
+	width:150px;
+	height:130px;
+	float:left;
+	margin:0 10px;
+	display:block;
+	padding:0;
+	border-right:#FFF 1px solid;
+
+}
+#footer ul li{
+	margin:0;
+	padding:0;
+}
+#footer a {
+	color:#FFF;
+	margin:0;
+}
+#footer a:hover {
+	color:#000;
+}
+#footer #logo { /* rettangolo che contiene Tutti i diritti, logo, indirizzo */
+	float:right;
+	width:200px;
+	display:block;
+	margin-right:20px;
+	margin-bottom:0;
+}
+#footer #logo p { /* Tutti i diritti ecc*/
+	text-align:right;
+	font-size:15px;
+}
+
+#footer #logo ul {
+	text-align:right;
+	line-height:15px;
+	margin:0;
+	width:auto;
+	display:block;
+	float:right;
+}
+#footer h3 {
+	color:#FFF;
+	font-size:22px;
+}
+.social {
+	height:50px;
+	width: 150px;
+	float: left;
+	display:block;
+	padding:0;
+	margin:0 10px;
+}
+.social ul {
+	width:150px; 
+	height:50px;
+	padding:0;
+}
+.social ul li {
+	float:left;
+	margin-left:2px;
+}
+.social ul li img {
+	border:none;
+}
+
+.err_validazione{font-size:11px;color:#ff0000}

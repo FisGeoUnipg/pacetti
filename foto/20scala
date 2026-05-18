@@ -1,0 +1,15 @@
+sips -Z 1000 DMS20-1.png -o DMS20-1.JPG
+sips -Z 1000 DMS20-2.png -o DMS20-2.JPG
+sips -Z 1000 DMS20-3.png -o DMS20-3.JPG
+sips -Z 1000 DMS20-4.png -o DMS20-4.JPG
+sips -Z 1000 DMS20-5.png -o DMS20-5.JPG
+sips -Z 1000 DMS20-6.png -o DMS20-6.JPG
+
+sips -Z 1000 MMF20-1.png -o MMF20-1.JPG
+sips -Z 1000 MMF20-2.png -o MMF20-2.JPG
+sips -Z 1000 MMF20-3.png -o MMF20-3.JPG
+sips -Z 1000 MMF20-4.png -o MMF20-4.JPG
+sips -Z 1000 MMF20-5.png -o MMF20-5.JPG
+sips -Z 1000 MMF20-6.png -o MMF20-6.JPG
+sips -Z 1000 MMF20-7.png -o MMF20-7.JPG
+

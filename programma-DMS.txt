@@ -1,0 +1,43 @@
+Concetti fondamentali del Modello Standard (MS)
+- Simmetrie di gauge 
+- Rottura spontanea di simmetria
+
+Le interazioni del MS
+- QED, QCD e interazione elettrodebole
+- Violazione della simmetria CP nel settore dei quark
+
+Simmetrie e anomalie del MS
+- Integrali sui cammini
+- Anomalia U(1)
+- Anomalie chirali
+
+Teorie effettive
+- Il caso del modello sigma
+- La lagrangiana effettiva in QED
+- Lagrangiane effettive oltre il MS
+
+I neutrini
+- Mescolamento dei leptoni
+- Oscillazione dei neutrini
+
+QCD a bassa energia
+- "Chiral perturbation theory"
+- Fenomenologia della QCD non perturbativa
+
+Kaoni e fisica del sapore 
+- Violazione di CP nel sistema dei kaoni
+- Il problema CP "forte" e il parametro teta
+
+Modelli fenomenologici della QCD
+- Il modello a quark per i mesoni e barioni
+
+Interazione debole dei quark pesanti
+- Decadimenti deboli
+- Mescolamento dei mesoni B e D
+- Il triangolo unitario e la violazione di CP
+- Decadimenti rari
+
+Il bosone Higgs
+- Massa e costanti di accoppiamento
+- Contributi alle correzioni elettrodebole
+- Il potenziale di Higgs e la stabilità del vuoto
