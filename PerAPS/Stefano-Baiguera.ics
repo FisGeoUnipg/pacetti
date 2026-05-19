@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 15.7.5//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20260306T075839Z
+DESCRIPTION:\n__________________________________________________________
+ ______________________\nRiunione di Microsoft Teams\nPartecipa a: https:
+ //teams.microsoft.com/meet/37879018615940?p=xPxaMakrqxj0n6mRNC\nID riuni
+ one: 378 790 186 159 40\nPasscode: AR3bZ6ak\n___________________________
+ _____\nServe aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferi
+ mento di sistema<https://teams.microsoft.com/l/meetup-join/19%3ameeting_
+ NTk3MGQ1M2QtYjk4OC00ZWZmLTgwNmEtMTQxYzQ3MzljMzk5%40thread.v2/0?context=%
+ 7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%
+ 2290bec90f-2ea8-4e1c-9a98-cd9504d8ee8f%22%7d>\nPer gli organizzatori: Op
+ zioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId=9
+ 0bec90f-2ea8-4e1c-9a98-cd9504d8ee8f&tenantId=067e7d20-e70f-42c6-ae10-8b0
+ 7e8c4a003&threadId=19_meeting_NTk3MGQ1M2QtYjk4OC00ZWZmLTgwNmEtMTQxYzQ3Mz
+ ljMzk5@thread.v2&messageId=0&language=it-IT>\n__________________________
+ ______________________________________________________\n
+DTEND;TZID=Europe/Berlin:20260429T173000
+DTSTAMP:20260426T133915Z
+DTSTART;TZID=Europe/Berlin:20260429T153000
+LAST-MODIFIED:20260426T133912Z
+LOCATION:Riunione Microsoft Teams
+SEQUENCE:2
+SUMMARY:PerAPS 2026 - Stefano Baiguera
+TRANSP:OPAQUE
+UID:A3EEEC72-D5F9-41BD-B4FA-FDAAD7CD1A16
+X-APPLE-CREATOR-IDENTITY:com.apple.exchangesync.exchangesyncd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria
+TRIGGER:-PT15M
+UID:A0B496E9-BEC0-47D2-9BF7-2BCE8E48252F
+X-WR-ALARMUID:A0B496E9-BEC0-47D2-9BF7-2BCE8E48252F
+END:VALARM
+END:VEVENT
+END:VCALENDAR
