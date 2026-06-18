@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft//Outlook Web//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E0080000000099DA28D6F7FEDC01000000000000000
+ 01000000055DB448EC330454AB34935315AE14FCC
+DTSTAMP:20260618T075619Z
+DTSTART:20260917T130000Z
+DTEND:20260917T150000Z
+SUMMARY:PerAPS 2026 - Tetyana Pitik
+LOCATION:Riunione Microsoft Teams
+DESCRIPTION:_______________________________________________________________
+ _________________\nRiunione di Microsoft Teams\n\nPartecipa a:\nhttps://te
+ ams.microsoft.com/meet/339329370186144?p=Nf9YFKKtSllrEjVaXE\n\nID riunione
+ :\n339 329 370 186 144\n\nPasscode:\nTg2Es2hv\n\n\n\n\nServe\n aiuto? | \n
+ Riferimento di sistema \nPer gli organizzatori:\nOpzioni\n riunione \n\n\n
+ \n________________________________________________________________________
+ ________
+X-ALT-DESC;FMTTYPE=text/html:<div class="cal_7b42">\n<div><br>\n<div class=
+ "x_me-email-text" lang="it-IT" style="max-width:1024px\; color:#242424\; f
+ ont-family:'Segoe UI'\,'Helvetica Neue'\,Helvetica\,Arial\,sans-serif">\n<
+ div aria-hidden="true" style="margin-bottom:24px\; overflow:hidden\; white
+ -space:nowrap">\n_________________________________________________________
+ _______________________</div>\n<div style="margin-bottom:12px"><span class
+ ="x_me-email-text" style="font-size:20px\; color:#242424\; font-weight:600
+ ">Riunione di Microsoft Teams</span>\n</div>\n<div style="margin-bottom:6p
+ x"><span class="x_me-email-text" style="font-size:20px\; color:#242424\; f
+ ont-weight:600">Partecipa a:\n</span><a href="https://teams.microsoft.com/
+ meet/339329370186144?p=Nf9YFKKtSllrEjVaXE" target="_blank" rel="noopener n
+ oreferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.join_l
+ ink" title="Meeting join" aria-label="Meeting join" class="x_me-email-link
+ " style="font-size:20px\; text-decoration:underline\; color:#5B5FC7">https
+ ://teams.microsoft.com/meet/339329370186144?p=Nf9YFKKtSllrEjVaXE</a>\n</di
+ v>\n<div style="margin-bottom:6px"><span class="x_me-email-text-secondary"
+  style="font-size:14px\; color:#616161">ID riunione:\n</span><span class="
+ x_me-email-text" style="font-size:14px\; color:#242424">339 329 370 186 14
+ 4</span>\n</div>\n<div style="margin-bottom:32px"><span class="x_me-email-
+ text-secondary" style="font-size:14px\; color:#616161">Passcode:\n</span><
+ span class="x_me-email-text" style="font-size:14px\; color:#242424">Tg2Es2
+ hv</span>\n</div>\n<div style="margin-bottom:12px\; max-width:1024px">\n<h
+ r style="border:0\; background:#616161\; height:1px">\n</div>\n<div style=
+ "margin-bottom:24px"><a href="https://aka.ms/JoinTeamsMeeting?omkt=it-IT" 
+ target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_
+ meet_invite_block.action.help" class="x_me-email-link" style="font-size:14
+ px\; text-decoration:underline\; color:#5B5FC7">Serve\n aiuto?</a> <span s
+ tyle="color:#616161">|</span> <a href="https://teams.microsoft.com/l/meetu
+ p-join/19%3ameeting_M2FmYTlhZmQtYjYzYi00ZDU3LWJiZjgtZjdjOTFhNjM5ZjA1%40thr
+ ead.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22
+ %2c%22Oid%22%3a%2290bec90f-2ea8-4e1c-9a98-cd9504d8ee8f%22%7d" target="_bla
+ nk" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_
+ block.action.join_link_compatibility" class="x_me-email-link" style="font-
+ size:14px\; text-decoration:underline\; color:#5B5FC7">\nRiferimento di si
+ stema</a> </div>\n<div><span class="x_me-email-text-secondary" style="font
+ -size:14px\; color:#616161">Per gli organizzatori:\n</span><a href="https:
+ //teams.microsoft.com/meetingOptions/?organizerId=90bec90f-2ea8-4e1c-9a98-
+ cd9504d8ee8f&amp\;tenantId=067e7d20-e70f-42c6-ae10-8b07e8c4a003&amp\;threa
+ dId=19_meeting_M2FmYTlhZmQtYjYzYi00ZDU3LWJiZjgtZjdjOTFhNjM5ZjA1@thread.v2&
+ amp\;messageId=0&amp\;language=it-IT" target="_blank" rel="noreferrer noop
+ ener" data-auth="NotApplicable" id="x_meet_invite_block.action.organizer_m
+ eet_options" class="x_me-email-link" style="font-size:14px\; text-decorati
+ on:underline\; color:#5B5FC7">Opzioni\n riunione</a> </div>\n<div style="m
+ argin-top:24px\; margin-bottom:6px"></div>\n<div style="margin-bottom:24px
+ "></div>\n<div aria-hidden="true" style="margin-bottom:24px\; overflow:hid
+ den\; white-space:nowrap">\n______________________________________________
+ __________________________________</div>\n</div>\n</div>\n</div>\n
+ORGANIZER;CN=Simone Pacetti:mailto:simone.pacetti@unipg.it
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
