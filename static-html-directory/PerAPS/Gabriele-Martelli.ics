@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 15.7.7//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20260703T061209Z
+DESCRIPTION:Flavour Changing Neutral Current decays at LHCb\n\n_________
+ _______________________________________________________________________\
+ nRiunione di Microsoft Teams\nPartecipa a: https://teams.microsoft.com/m
+ eet/346886421526659?p=47YARJIqAMOCV9ejPu\nID riunione: 346 886 421 526 6
+ 59\nPasscode: gj3up7aW\n________________________________\nServe aiuto?<h
+ ttps://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Riferimento di sistema<http
+ s://teams.microsoft.com/l/meetup-join/19%3ameeting_N2QxMTY1YWMtNDU1ZC00Y
+ zE5LWE1ZmEtYTFiNzIyODU2OGY0%40thread.v2/0?context=%7b%22Tid%22%3a%22067e
+ 7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%2290bec90f-2ea8-4e1c-
+ 9a98-cd9504d8ee8f%22%7d>\nPer gli organizzatori: Opzioni riunione<https:
+ //teams.microsoft.com/meetingOptions/?organizerId=90bec90f-2ea8-4e1c-9a9
+ 8-cd9504d8ee8f&tenantId=067e7d20-e70f-42c6-ae10-8b07e8c4a003&threadId=19
+ _meeting_N2QxMTY1YWMtNDU1ZC00YzE5LWE1ZmEtYTFiNzIyODU2OGY0@thread.v2&mess
+ ageId=0&language=it-IT>\n_______________________________________________
+ _________________________________\n
+DTEND;TZID=Europe/Berlin:20260717T130000
+DTSTAMP:20260703T061426Z
+DTSTART;TZID=Europe/Berlin:20260717T110000
+LAST-MODIFIED:20260703T061209Z
+LOCATION:Riunione Microsoft Teams
+SEQUENCE:0
+SUMMARY:PerAPS 2026 - Gabriele Martelli
+TRANSP:OPAQUE
+UID:20B1EB5F-9482-4BFE-B9D9-10819578B428
+X-APPLE-CREATOR-IDENTITY:com.apple.exchangesync.exchangesyncd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria
+TRIGGER:-PT15M
+UID:0D5A93C5-710E-47F1-8051-2C40BB2363E9
+X-WR-ALARMUID:0D5A93C5-710E-47F1-8051-2C40BB2363E9
+END:VALARM
+END:VEVENT
+END:VCALENDAR
