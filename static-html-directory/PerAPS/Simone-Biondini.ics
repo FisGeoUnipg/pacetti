@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 15.7.9//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20260905T064836Z
+DESCRIPTION:\n__________________________________________________________
+ ______________________\nRiunione di Microsoft Teams\nPartecipa a: https:
+ //teams.microsoft.com/meet/311152771728251?p=sUszFVyKggyfGKoEkf\nID riun
+ ione: 311 152 771 728 251\nPasscode: cQ9yA2L9\n_________________________
+ _______\nServe aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | Rife
+ rimento di sistema<https://teams.microsoft.com/l/meetup-join/19%3ameetin
+ g_ZmE3MTM4ZGItZmIzOC00Mzc2LThkODQtOWI2Zjc1YzhkNGEy%40thread.v2/0?context
+ =%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3
+ a%2290bec90f-2ea8-4e1c-9a98-cd9504d8ee8f%22%7d>\nPer gli organizzatori: 
+ Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organizerId
+ =90bec90f-2ea8-4e1c-9a98-cd9504d8ee8f&tenantId=067e7d20-e70f-42c6-ae10-8
+ b07e8c4a003&threadId=19_meeting_ZmE3MTM4ZGItZmIzOC00Mzc2LThkODQtOWI2Zjc1
+ YzhkNGEy@thread.v2&messageId=0&language=it-IT>\n________________________
+ ________________________________________________________\n
+DTEND;TZID=Europe/Berlin:20261015T170000
+DTSTAMP:20260905T071118Z
+DTSTART;TZID=Europe/Berlin:20261015T150000
+LAST-MODIFIED:20260905T064836Z
+LOCATION:Riunione Microsoft Teams
+SEQUENCE:0
+SUMMARY:PerAPS 2026 - Simone Biondini
+TRANSP:OPAQUE
+UID:6662EAA0-FDF3-4520-8D89-7D3841345A81
+X-APPLE-CREATOR-IDENTITY:com.apple.exchangesync.exchangesyncd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria
+TRIGGER:-PT15M
+UID:00B83F33-9C30-4021-B234-DBFE736B9044
+X-WR-ALARMUID:00B83F33-9C30-4021-B234-DBFE736B9044
+END:VALARM
+END:VEVENT
+END:VCALENDAR
