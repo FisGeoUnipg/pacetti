@@ -35,12 +35,12 @@ DESCRIPTION:\n__________________________________________________________
  b07e8c4a003&threadId=19_meeting_MzgwZWJjNTYtMTg2YS00N2Y3LWEzOGYtYzk5YjBj
  ZGQyODEw@thread.v2&messageId=0&language=it-IT>\n________________________
  ________________________________________________________\n
-DTEND;TZID=Europe/Berlin:20261013T170000
-DTSTAMP:20260905T064317Z
-DTSTART;TZID=Europe/Berlin:20261013T150000
-LAST-MODIFIED:20260905T063845Z
+DTEND;TZID=Europe/Berlin:20261013T163000
+DTSTAMP:20260909T061600Z
+DTSTART;TZID=Europe/Berlin:20261013T143000
+LAST-MODIFIED:20260909T061542Z
 LOCATION:Riunione Microsoft Teams
-SEQUENCE:1
+SEQUENCE:2
 SUMMARY:PerAPS 2026 - Enrico Cannizzaro
 TRANSP:OPAQUE
 UID:863C680C-B215-4908-949E-291AA335982E
