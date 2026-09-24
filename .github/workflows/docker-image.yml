@@ -11,6 +11,17 @@ jobs:
     runs-on: self-hosted
 
     steps:
-    - uses: actions/checkout@v6
-    - name: Build the Docker image
-      run: make
+      - name: Test runner
+        run: |
+          echo "HELLO"
+          uname -a
+          id
+          pwd
+
+      - uses: actions/checkout@v6
+
+      - name: Build the Docker image
+        run: |
+          echo "Starting make"
+          make
+          echo "make returned successfully"
