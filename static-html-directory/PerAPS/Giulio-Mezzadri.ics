@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 15.8.1//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20261019T140117Z
+DESCRIPTION:\n__________________________________________________________
+ ______________________\nRiunione di Microsoft Teams\nPartecipa a: https:
+ //teams.microsoft.com/meet/3122370163103593?p=zaef35VTPCzHRIP5kQ\nID riu
+ nione: 312 237 016 310 359 3\nPasscode: JQ6kX2z4\n______________________
+ __________\nServe aiuto?<https://aka.ms/JoinTeamsMeeting?omkt=it-IT> | R
+ iferimento di sistema<https://teams.microsoft.com/l/meetup-join/19%3amee
+ ting_NzgzZWZmNjQtN2ExNi00NGM1LWIwZGQtNzczODMxYzFhNTFk%40thread.v2/0?cont
+ ext=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%2
+ 2%3a%2290bec90f-2ea8-4e1c-9a98-cd9504d8ee8f%22%7d>\nPer gli organizzator
+ i: Opzioni riunione<https://teams.microsoft.com/meetingOptions/?organize
+ rId=90bec90f-2ea8-4e1c-9a98-cd9504d8ee8f&tenantId=067e7d20-e70f-42c6-ae1
+ 0-8b07e8c4a003&threadId=19_meeting_NzgzZWZmNjQtN2ExNi00NGM1LWIwZGQtNzczO
+ DMxYzFhNTFk@thread.v2&messageId=0&language=it-IT>\n_____________________
+ ___________________________________________________________\n
+DTEND;TZID=Europe/Berlin:20261105T163000
+DTSTAMP:20261019T142353Z
+DTSTART;TZID=Europe/Berlin:20261105T143000
+LAST-MODIFIED:20261019T140118Z
+LOCATION:Riunione Microsoft Teams
+SEQUENCE:0
+SUMMARY:PerAPS 2026 - Giulio Mezzadri
+TRANSP:OPAQUE
+UID:2537568D-7DC7-4775-8756-7020009523F4
+X-APPLE-CREATOR-IDENTITY:com.apple.exchangesync.exchangesyncd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria
+TRIGGER:-PT15M
+UID:C5A8CCF8-B952-4D65-9DEE-B19B727EE63D
+X-WR-ALARMUID:C5A8CCF8-B952-4D65-9DEE-B19B727EE63D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
